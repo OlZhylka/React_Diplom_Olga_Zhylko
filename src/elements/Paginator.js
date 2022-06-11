@@ -22,6 +22,7 @@ const Paginator = props => {
         {value: '12', label: 'по 12 книг'},
         {value: '20', label: 'по 20 книг'},
         {value: '50', label: 'по 50 книг'},
+        {value: '100', label: 'по 100 книг'},
     ]
     const params = useParams(); //дает инфу с url
     const data = props.books;

@@ -60,7 +60,6 @@ class CatalogSection extends React.PureComponent {
                     <h5>{this.state.author} </h5>
                     <h6>{this.state.kind} </h6>
                     <h6>{this.state.genre}</h6>
-                    }
                 </div>
 
             </div>
