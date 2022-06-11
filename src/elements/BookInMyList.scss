@@ -1,0 +1,35 @@
+.myBook {
+  padding-left: 10px ;
+  color: #491c5f;
+
+  .title{
+    font-size: 18px;
+    color: #031182;
+    margin-left: 10px;
+  }
+  .author{
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  span{
+    button {
+      margin: 8px;
+    }
+  }
+;
+}
+@media (max-width: 1030px) {
+  .myBook {
+    .title, .author{
+      font-size: 14px;
+
+    }
+  }
+}
+@media (max-width: 450px) {
+  .myBook {
+    .title, .author{
+      font-size: 12px;
+    }
+  }
+}
